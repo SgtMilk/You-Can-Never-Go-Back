@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:YouCanNeverGoBack/Assets/Sprites/RatBoi/BigRatBoi.png.meta
+guid: 56e84a8ee37ecbd469a57ebf5e16a598
+=======
 guid: 51ca3cab3fdbadc4f919d9666da5c592
+>>>>>>> 4304724d1156dba8e37955e6bf50fdc5c74f3d2b:YouCanNeverGoBack/Assets/Sprites/BigRatBoi.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
