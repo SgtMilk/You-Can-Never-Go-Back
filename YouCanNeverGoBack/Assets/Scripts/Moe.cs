@@ -14,6 +14,7 @@ public class Moe : MonoBehaviour
     public string ladderLayer;
     public string platformLayer;
     public string leverLayer;
+    public string waterLayer;
 
     private bool isPushingObject = false;
     private bool isClimbing = false;
@@ -135,6 +136,11 @@ public class Moe : MonoBehaviour
         {
             pushedObject = collision.gameObject;
             isPushingObject = true;
+        }
+
+        if (collision.gameObject.layer == LayerMask.NameToLayer(waterLayer))
+        {
+            Destroy(gameObject);
         }
     }
 
