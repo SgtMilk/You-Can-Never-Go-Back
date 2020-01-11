@@ -30,9 +30,8 @@ public class Door : MonoBehaviour
 
     private IEnumerator ChangeScene()
     {
-        //show animate out animation
         GetComponentInChildren<Animator>().SetTrigger("ChangeScene");
-        yield return new WaitForSeconds(1f);        //load the scene we want
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(nextSceneName);
     }
 }
