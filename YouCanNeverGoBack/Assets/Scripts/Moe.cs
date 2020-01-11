@@ -13,6 +13,7 @@ public class Moe : MonoBehaviour
     public string pushableLayer;
     public string ladderLayer;
     public string platformLayer;
+    public string leverLayer;
 
     private bool isPushingObject = false;
     private bool isClimbing = false;
@@ -59,14 +60,29 @@ public class Moe : MonoBehaviour
             Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer(platformLayer), ignorePlatformCollisions);
 
 
-            if (isPushingObject && Input.GetAxis("Fire1") == 1 && pushedObject)
+            if (Input.GetAxis("Action") == 1)
             {
-                Debug.DrawRay(pushedObject.transform.position, Vector3.up, Color.white);
-                Rigidbody2D objectRigidBody = pushedObject.GetComponent<Rigidbody2D>();
-                if (objectRigidBody)
+                if (isPushingObject && pushedObject)
                 {
-                    horizontalVelocity /= 2.0f;
-                    objectRigidBody.velocity = new Vector2(horizontalVelocity, objectRigidBody.velocity.y);
+                    Debug.DrawRay(pushedObject.transform.position, Vector3.up, Color.white);
+                    Rigidbody2D objectRigidBody = pushedObject.GetComponentInChildren<Rigidbody2D>();
+                    if (objectRigidBody)
+                    {
+                        horizontalVelocity /= 2.0f;
+                        objectRigidBody.velocity = new Vector2(horizontalVelocity, objectRigidBody.velocity.y);
+                    }
+                }
+                else
+                {
+                    Collider2D collider = Physics2D.OverlapBox(transform.position, new Vector2(4, 5), 0, LayerMask.GetMask(platformLayer));
+                    if (collider) {
+                        Lever lever = collider.gameObject.GetComponent<Lever>();
+                        if (lever)
+                        {
+                            lever.pull();
+                        }
+
+                    }
                 }
             }
             controller.velocity = new Vector2(horizontalVelocity, verticalVelocity);

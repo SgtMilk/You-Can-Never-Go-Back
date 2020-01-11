@@ -142,12 +142,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 270f2795fcd079f45bfa3a1042d78313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkingSpeed: 500
+  walkingSpeed: 800
   jumpSpeed: 1000
   climbingSpeed: 500
-  pushForce: 10000
   defaultGravityScale: 3
   groundLayer: Ground
   pushableLayer: Pushable
   ladderLayer: Ladder
   platformLayer: Platform
+  leverLayer: Lever
