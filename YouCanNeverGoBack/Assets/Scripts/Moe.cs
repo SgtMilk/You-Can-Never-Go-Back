@@ -10,9 +10,10 @@ public class Moe : MonoBehaviour
     public float pushForce = 100.0f;
     public float defaultGravityScale = 3.0f;
 
-    public LayerMask groundLayer;
-    public int pushableLayer;
-    public int ladderLayer;
+    public string groundLayer;
+    public string pushableLayer;
+    public string ladderLayer;
+    public string platformLayer;
 
     private bool isPushingObject = false;
     private bool isClimbing = false;
@@ -37,6 +38,7 @@ public class Moe : MonoBehaviour
         {
             controller.gravityScale = defaultGravityScale;
             float horizontalInput = Input.GetAxis("Horizontal");
+            float verticalInput = Input.GetAxis("Vertical");
             float horizontalVelocity = Time.deltaTime * walkingSpeed * horizontalInput;
             float verticalVelocity = controller.velocity.y;
             if (Input.GetAxis("Jump") != 0 && isGrounded())
@@ -45,9 +47,12 @@ public class Moe : MonoBehaviour
             }
             else if (isClimbing)
             {
-                verticalVelocity = Time.deltaTime * climbingSpeed * Input.GetAxis("Vertical");
+                verticalVelocity = Time.deltaTime * climbingSpeed * verticalInput;
                 controller.gravityScale = 0;
             }
+            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer(groundLayer), verticalVelocity > 1);
+            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer(platformLayer), verticalVelocity > 1 || isClimbing || verticalInput < 0);
+
             controller.velocity = new Vector2(horizontalVelocity, verticalVelocity);
 
             if (horizontalInput * transform.localScale.x < 0)
@@ -81,16 +86,25 @@ public class Moe : MonoBehaviour
         Collider2D collider = GetComponent<Collider2D>();
         if (collider)
         {
-            return collider.IsTouchingLayers(groundLayer);
+            LayerMask mask = LayerMask.GetMask(groundLayer, platformLayer);
+            return collider.IsTouchingLayers(mask);
         }
         return false;
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer(ladderLayer))
+        {
+            isClimbing = true;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision.gameObject.layer);
         Debug.Log(ladderLayer);
-        if (collision.gameObject.layer == ladderLayer)
+        if (collision.gameObject.layer == LayerMask.NameToLayer(ladderLayer))
         {
             isClimbing = true;
         }
@@ -98,7 +112,7 @@ public class Moe : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == ladderLayer)
+        if (collision.gameObject.layer == LayerMask.NameToLayer(ladderLayer))
         {
             isClimbing = false;
         }
@@ -106,7 +120,7 @@ public class Moe : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.layer == pushableLayer)
+        if(collision.gameObject.layer == LayerMask.NameToLayer(pushableLayer))
         {
             pushedObject = collision.gameObject;
             isPushingObject = true;
@@ -115,7 +129,7 @@ public class Moe : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == pushableLayer)
+        if (collision.gameObject.layer == LayerMask.NameToLayer(pushableLayer))
         {
             isPushingObject = false;
         }
