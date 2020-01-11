@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:YouCanNeverGoBack/Assets/Sprites/BigBoat/BigBoat1.png.meta
 guid: 5c414b5923fe03f47b2d479485ea7f10
+=======
+guid: c3475bf225413c04c96513bd8a3fef8f
+>>>>>>> 4304724d1156dba8e37955e6bf50fdc5c74f3d2b:YouCanNeverGoBack/Assets/Sprites/BigBoat1.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
