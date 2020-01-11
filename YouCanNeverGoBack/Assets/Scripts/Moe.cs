@@ -26,8 +26,13 @@ public class Moe : MonoBehaviour
         Rigidbody2D controller = GetComponent<Rigidbody2D>();
         if (controller)
         {
-            controller.velocity = new Vector2(Input.GetAxis("Horizontal") == 0 ? 0 : Time.deltaTime * walkingSpeed * Input.GetAxis("Horizontal"),
+            float horizontalInput = Input.GetAxis("Horizontal");
+            controller.velocity = new Vector2(horizontalInput == 0 ? 0 : Time.deltaTime * walkingSpeed * horizontalInput,
                                               Input.GetAxis("Jump") == 0 || !isGrounded() ? controller.velocity.y : Time.deltaTime * jumpSpeed);
+            if (horizontalInput * transform.localScale.x < 0)
+            {
+                transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            }
         }
 
         if (isPushingObject && pushedObject)
