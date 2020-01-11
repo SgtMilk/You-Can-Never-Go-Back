@@ -16,12 +16,84 @@ MonoBehaviour:
   CurrentPluginConfig: 
   m_lastPopulateTimePart2: 0
   m_lastPopulateTimePsrt1: 0
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  ExpandedItems: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - Guid: '{59C01894-E4F3-4B72-BD47-5AAE131DC183}'
+    m_lastTimePart2: -1999137177
+    m_lastTimePsrt1: 239720667
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  AuxBusWwu:
+  - Guid: '{58327C43-D139-412E-9C21-4D848AD106F9}'
+    m_lastTimePart2: -1999137177
+    m_lastTimePsrt1: 237910412
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{7B7BF126-C859-4661-8905-28DF8FBE35D6}'
+    m_lastTimePart2: -1999137177
+    m_lastTimePsrt1: 239620933
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List:
+    - Guid: e3e6f3e3a324724f83690b10b993783e
+      ID: -222937841
+      Name: New_SoundBank
+      Path: Default Work Unit\New_SoundBank
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: New_SoundBank
+        ObjectType: 7
+  EventWwu:
+  - Guid: '{96689A12-40B4-47BD-967B-8809A6F75B14}'
+    m_lastTimePart2: -1999137177
+    m_lastTimePsrt1: 236236220
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List:
+    - Guid: f2d70f111dca3c40a144b34657f3ec31
+      ID: 1718044668
+      Name: Cracks
+      Path: Default Work Unit\Cracks
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cracks
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /WwiseProjectShip
+  - /WwiseProjectShip/Banks
+  - /WwiseProjectShip/Banks/Default Work Unit
+  RtpcWwu:
+  - Guid: '{6610EFB6-BA2A-432B-AD05-218AF7AB4609}'
+    m_lastTimePart2: -1999137177
+    m_lastTimePsrt1: 236246187
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List: []
+  StateWwu:
+  - Guid: '{7F7F4C61-D090-4BAF-9D69-B3CD153B3B50}'
+    m_lastTimePart2: -1999137177
+    m_lastTimePsrt1: 239700723
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  SwitchWwu:
+  - Guid: '{5DF52E28-6460-4F6A-958C-134BEFFE4C6A}'
+    m_lastTimePart2: -1999137177
+    m_lastTimePsrt1: 239710696
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List: []
+  TriggerWwu:
+  - Guid: '{3CAF8A5B-ED23-4685-B814-A8B6503853A2}'
+    m_lastTimePart2: -1999137177
+    m_lastTimePsrt1: 239720667
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []
