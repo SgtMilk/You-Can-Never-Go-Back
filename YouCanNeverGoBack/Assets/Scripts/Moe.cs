@@ -74,7 +74,7 @@ public class Moe : MonoBehaviour
                 }
                 else
                 {
-                    Collider2D collider = Physics2D.OverlapBox(transform.position, new Vector2(4, 5), 0, LayerMask.GetMask(platformLayer));
+                    Collider2D collider = Physics2D.OverlapBox(transform.position, new Vector2(4, 5), 0, LayerMask.GetMask(leverLayer));
                     if (collider) {
                         Lever lever = collider.gameObject.GetComponent<Lever>();
                         if (lever)
