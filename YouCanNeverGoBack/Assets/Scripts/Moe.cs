@@ -8,9 +8,11 @@ public class Moe : MonoBehaviour
     public float jumpSpeed = 1000.0f;
     public float climbingSpeed = 500.0f;
     public float pushForce = 100.0f;
+    public float defaultGravityScale = 3.0f;
+
     public LayerMask groundLayer;
-    public LayerMask pushableLayer;
-    public LayerMask ladderLayer;
+    public int pushableLayer;
+    public int ladderLayer;
 
     private bool isPushingObject = false;
     private bool isClimbing = false;
@@ -20,16 +22,20 @@ public class Moe : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Rigidbody2D controller = GetComponent<Rigidbody2D>();
+        if (controller)
+        {
+            controller.gravityScale = defaultGravityScale;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawRay(transform.position + new Vector3(0, 10, 0), Vector3.up, isClimbing ? Color.red : Color.green);
         Rigidbody2D controller = GetComponent<Rigidbody2D>();
         if (controller)
         {
+            controller.gravityScale = defaultGravityScale;
             float horizontalInput = Input.GetAxis("Horizontal");
             float horizontalVelocity = Time.deltaTime * walkingSpeed * horizontalInput;
             float verticalVelocity = controller.velocity.y;
@@ -40,6 +46,7 @@ public class Moe : MonoBehaviour
             else if (isClimbing)
             {
                 verticalVelocity = Time.deltaTime * climbingSpeed * Input.GetAxis("Vertical");
+                controller.gravityScale = 0;
             }
             controller.velocity = new Vector2(horizontalVelocity, verticalVelocity);
 
@@ -81,6 +88,8 @@ public class Moe : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(collision.gameObject.layer);
+        Debug.Log(ladderLayer);
         if (collision.gameObject.layer == ladderLayer)
         {
             isClimbing = true;
