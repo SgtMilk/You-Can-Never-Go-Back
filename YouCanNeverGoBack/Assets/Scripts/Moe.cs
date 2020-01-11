@@ -7,6 +7,7 @@ public class Moe : MonoBehaviour
     public float walkingSpeed = 100.0f;
     public float jumpSpeed = 250.0f;
     public LayerMask groundLayer;
+    private List<int> keys = new List<int>();
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,16 @@ public class Moe : MonoBehaviour
             controller.velocity = new Vector2(Input.GetAxis("Horizontal") == 0 ? 0 : Time.deltaTime * walkingSpeed * Input.GetAxis("Horizontal"),
                                               Input.GetAxis("Jump") == 0 || !isGrounded() ? controller.velocity.y : Time.deltaTime * jumpSpeed);
         }
+    }
+
+    public bool hasKey(int keyId)
+    {
+        return keys.Contains(keyId);
+    }
+
+    public void collectKey(int keyId)
+    {
+        keys.Add(keyId);
     }
 
     private bool isGrounded()
