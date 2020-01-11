@@ -38,11 +38,11 @@ public class Moe : MonoBehaviour
         if (controller)
         {
             controller.gravityScale = defaultGravityScale;
-            float horizontalInput = Input.GetAxis("Horizontal");
-            float verticalInput = Input.GetAxis("Vertical");
+            float horizontalInput = Input.GetAxisRaw("Horizontal");
+            float verticalInput = Input.GetAxisRaw("Vertical");
             float horizontalVelocity = Time.deltaTime * walkingSpeed * horizontalInput;
             float verticalVelocity = controller.velocity.y;
-            if (Input.GetAxis("Jump") != 0 && isGrounded())
+            if (Input.GetAxisRaw("Jump") != 0 && isGrounded())
             {
                 verticalVelocity = Time.deltaTime * jumpSpeed;
             }
@@ -61,7 +61,7 @@ public class Moe : MonoBehaviour
             Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer(platformLayer), ignorePlatformCollisions);
 
 
-            if (Input.GetAxis("Action") == 1)
+            if (Input.GetAxisRaw("Action") == 1)
             {
                 if (isPushingObject && pushedObject)
                 {
@@ -112,7 +112,11 @@ public class Moe : MonoBehaviour
         if (collider)
         {
             LayerMask mask = LayerMask.GetMask(groundLayer, platformLayer, pushableLayer);
-            return collider.IsTouchingLayers(mask);
+            if (collider.IsTouchingLayers(mask))
+            {
+                RaycastHit2D[] hits = new RaycastHit2D[1];
+                return Physics2D.RaycastNonAlloc(transform.position, Vector2.down, hits, 3, mask) > 0;
+            }
         }
         return false;
     }
