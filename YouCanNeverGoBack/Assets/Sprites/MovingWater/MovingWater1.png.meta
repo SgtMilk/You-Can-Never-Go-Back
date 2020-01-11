@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:YouCanNeverGoBack/Assets/Sprites/MovingWater/MovingWater1.png.meta
+guid: b3e016dae1c6f1746a420f2670afbafc
+=======
 guid: ce5a8046ed5383c4cbbc9f2bc07d96b6
+>>>>>>> 4304724d1156dba8e37955e6bf50fdc5c74f3d2b:YouCanNeverGoBack/Assets/Sprites/MovingWater1.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
