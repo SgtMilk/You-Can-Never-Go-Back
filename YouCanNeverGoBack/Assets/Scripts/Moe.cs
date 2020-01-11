@@ -17,22 +17,11 @@ public class Moe : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetAxis("Horizontal") != 0)
+        Rigidbody2D controller = GetComponent<Rigidbody2D>();
+        if (controller)
         {
-            Rigidbody2D controller = GetComponent<Rigidbody2D>();
-            if(controller)
-            {
-                controller.velocity = new Vector2(Time.deltaTime * walkingSpeed * Input.GetAxis("Horizontal"), controller.velocity.y);
-            }
-        }
-
-        if(Input.GetAxis("Jump") != 0 && isGrounded())
-        {
-            Rigidbody2D controller = GetComponent<Rigidbody2D>();
-            if (controller)
-            {
-                controller.velocity = new Vector2(controller.velocity.x, Time.deltaTime * jumpSpeed);
-            }
+            controller.velocity = new Vector2(Input.GetAxis("Horizontal") == 0 ? 0 : Time.deltaTime * walkingSpeed * Input.GetAxis("Horizontal"),
+                                              Input.GetAxis("Jump") == 0 || !isGrounded() ? controller.velocity.y : Time.deltaTime * jumpSpeed);
         }
     }
 
@@ -44,13 +33,5 @@ public class Moe : MonoBehaviour
             return collider.IsTouchingLayers(groundLayer);
         }
         return false;
-        /*
-        Vector2 position = transform.position;
-        Vector2 direction = Vector3.down;
-        float distance = 1.0f;
-        Debug.DrawRay(position, direction, Color.green);
-        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);
-        return hit.collider != null;
-        */
     }
 }
