@@ -7,6 +7,8 @@ public class Lightning : MonoBehaviour
     public float maxIntensity = 5;
     public float mediumIntensity = 3;
     public float minIntensity = 2;
+    public float minDurationBetween = 4;
+    public float maxDurationBetween = 16;
     public float cameraShakeMaxAmount = 1E-10f;
     public CameraShake cameraShake;
     private new Light light;
@@ -29,7 +31,7 @@ public class Lightning : MonoBehaviour
     {   
         while(true)
         {
-            yield return new WaitForSeconds(Random.Range(4, 6));
+            yield return new WaitForSeconds(Random.Range(minDurationBetween, maxDurationBetween));
             for (int i = 0; i < 2; i++)
             {
                 light.intensity = Random.Range(minIntensity, mediumIntensity);
