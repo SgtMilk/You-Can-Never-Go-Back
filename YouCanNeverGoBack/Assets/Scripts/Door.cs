@@ -24,7 +24,14 @@ public class Door : MonoBehaviour
     {
         Moe moe = collision.gameObject.GetComponent<Moe>();
         if (moe && moe.hasKey(keyId)) {
-            SceneManager.LoadScene(nextSceneName);
+            StartCoroutine(ChangeScene());
         }
+    }
+
+    private IEnumerator ChangeScene()
+    {
+        GetComponentInChildren<Animator>().SetTrigger("ChangeScene");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(nextSceneName);
     }
 }
