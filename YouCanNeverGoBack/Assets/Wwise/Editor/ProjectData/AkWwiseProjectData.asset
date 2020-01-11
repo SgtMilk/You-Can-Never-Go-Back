@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2d994f94e6fbd45a5260e9ab120a00, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  AcousticTextureWwu: []
+  AuxBusWwu: []
+  BankWwu: []
+  EventWwu: []
+  ExpandedItems: []
+  RtpcWwu: []
+  StateWwu: []
+  SwitchWwu: []
+  TriggerWwu: []

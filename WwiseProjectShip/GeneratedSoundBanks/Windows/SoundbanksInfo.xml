@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1718044668" Name="Cracks" ObjectPath="\Events\Default Work Unit\Cracks"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="1607094" Language="SFX">
+					<ShortName>Craks-003.wav</ShortName>
+					<Path>SFX\Craks-003_56D34C19.wem</Path>
+				</File>
+				<File Id="425158113" Language="SFX">
+					<ShortName>Craks-001.wav</ShortName>
+					<Path>SFX\Craks-001_56D34C19.wem</Path>
+				</File>
+				<File Id="528092472" Language="SFX">
+					<ShortName>Craks-002.wav</ShortName>
+					<Path>SFX\Craks-002_56D34C19.wem</Path>
+				</File>
+				<File Id="726754599" Language="SFX">
+					<ShortName>Craks-004.wav</ShortName>
+					<Path>SFX\Craks-004_56D34C19.wem</Path>
+				</File>
+				<File Id="866381741" Language="SFX">
+					<ShortName>Craks-005.wav</ShortName>
+					<Path>SFX\Craks-005_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:YouCanNeverGoBack/Assets/Sprites/waterBelow.PNG.meta
 guid: 15625509a9d16c5439d3e6c7f4abbc9d
+=======
+guid: 510b20b4668f4254c992fc4d74243e21
+>>>>>>> origin/develop:YouCanNeverGoBack/Assets/Sprites/Background.PNG.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
