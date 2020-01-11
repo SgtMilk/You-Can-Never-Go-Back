@@ -18,12 +18,33 @@ public class Key : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         Moe moe = collision.gameObject.GetComponent<Moe>();
         if (moe)
         {
             moe.collectKey(id);
+            Destroy(gameObject);
         }
     }
+
+    /*private void OnTriggerEnter2D(Collision2D collision)
+    {
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+    }*/
 }
