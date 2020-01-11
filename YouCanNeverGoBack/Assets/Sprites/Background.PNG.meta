@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD:YouCanNeverGoBack/Assets/Sprites/Background.PNG.meta
 guid: 510b20b4668f4254c992fc4d74243e21
 =======
 guid: 7f3db1f391e47bc4094735430d3d0e07
 >>>>>>> 8d2d68b249cb2d188c07be423a1364b7c48fa7c3:YouCanNeverGoBack/Assets/Sprites/Background.PNG.meta
+=======
+<<<<<<< HEAD:YouCanNeverGoBack/Assets/Sprites/waterBelow.PNG.meta
+guid: 15625509a9d16c5439d3e6c7f4abbc9d
+=======
+guid: 510b20b4668f4254c992fc4d74243e21
+>>>>>>> origin/develop:YouCanNeverGoBack/Assets/Sprites/Background.PNG.meta
+>>>>>>> origin/develop
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
