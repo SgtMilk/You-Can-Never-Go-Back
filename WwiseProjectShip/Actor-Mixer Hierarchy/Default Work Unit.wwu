@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4D6568B-9819-4717-ADEF-38AA49381340}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{C4D6568B-9819-4717-ADEF-38AA49381340}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Cracks" ID="{083533C6-E627-4407-B459-34B5C7B16F68}" ShortID="237814735">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C34F73B-4F02-49FB-B9FA-8F8E4853C03B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58327C43-D139-412E-9C21-4D848AD106F9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Craks-001" ID="{A97D2A05-221E-49BC-B776-C452404E95DD}" ShortID="448434355">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C34F73B-4F02-49FB-B9FA-8F8E4853C03B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58327C43-D139-412E-9C21-4D848AD106F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Craks-001" ID="{48F80954-8887-4ED9-94C2-D9046DEF723E}" ShortID="425158113">
+									<Language>SFX</Language>
+									<AudioFile>Craks-001.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Craks-001" ID="{48F80954-8887-4ED9-94C2-D9046DEF723E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Craks-002" ID="{4C304FE0-1A0C-4426-A624-FECCB9CC154B}" ShortID="788579839">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C34F73B-4F02-49FB-B9FA-8F8E4853C03B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58327C43-D139-412E-9C21-4D848AD106F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Craks-002" ID="{5F1EC404-BCFE-4F04-98C6-09D005336CAD}" ShortID="528092472">
+									<Language>SFX</Language>
+									<AudioFile>Craks-002.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Craks-002" ID="{5F1EC404-BCFE-4F04-98C6-09D005336CAD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Craks-003" ID="{5F6D01F1-F76C-412D-BAD7-FBF0FF6E1D16}" ShortID="799238912">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C34F73B-4F02-49FB-B9FA-8F8E4853C03B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58327C43-D139-412E-9C21-4D848AD106F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Craks-003" ID="{F112302B-D445-4940-A3BB-EED65AC52435}" ShortID="1607094">
+									<Language>SFX</Language>
+									<AudioFile>Craks-003.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Craks-003" ID="{F112302B-D445-4940-A3BB-EED65AC52435}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Craks-004" ID="{30308665-5D20-4699-8A12-5A0DDDE956AE}" ShortID="285533127">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C34F73B-4F02-49FB-B9FA-8F8E4853C03B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58327C43-D139-412E-9C21-4D848AD106F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Craks-004" ID="{79200C55-1345-4563-A9F9-5CD9AC2896D0}" ShortID="726754599">
+									<Language>SFX</Language>
+									<AudioFile>Craks-004.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Craks-004" ID="{79200C55-1345-4563-A9F9-5CD9AC2896D0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Craks-005" ID="{8948426C-00E2-4D13-A129-34B7E40F8B62}" ShortID="884659854">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C34F73B-4F02-49FB-B9FA-8F8E4853C03B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58327C43-D139-412E-9C21-4D848AD106F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Craks-005" ID="{EF5B6124-6B70-4843-8005-56D1DAD9D652}" ShortID="866381741">
+									<Language>SFX</Language>
+									<AudioFile>Craks-005.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Craks-005" ID="{EF5B6124-6B70-4843-8005-56D1DAD9D652}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

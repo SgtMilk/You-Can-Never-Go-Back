@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1718044668	Cracks			\Default Work Unit\Cracks	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1607094	Craks-003	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Craks-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cracks\Craks-003		3986704
+	425158113	Craks-001	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Craks-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cracks\Craks-001		2187424
+	528092472	Craks-002	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Craks-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cracks\Craks-002		1869904
+	726754599	Craks-004	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Craks-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cracks\Craks-004		3986704
+	866381741	Craks-005	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Craks-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cracks\Craks-005		9206320
+

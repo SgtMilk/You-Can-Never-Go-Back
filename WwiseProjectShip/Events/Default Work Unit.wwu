@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{96689A12-40B4-47BD-967B-8809A6F75B14}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{96689A12-40B4-47BD-967B-8809A6F75B14}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Cracks" ID="{110FD7F2-CA1D-403C-A144-B34657F3EC31}">
+					<ChildrenList>
+						<Action Name="" ID="{43D19C71-896D-44CC-B916-5C57C8AF3680}" ShortID="117164094">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cracks" ID="{083533C6-E627-4407-B459-34B5C7B16F68}" WorkUnitID="{C4D6568B-9819-4717-ADEF-38AA49381340}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
