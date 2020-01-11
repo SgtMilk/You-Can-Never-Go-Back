@@ -50,9 +50,14 @@ public class Moe : MonoBehaviour
                 verticalVelocity = Time.deltaTime * climbingSpeed * verticalInput;
                 controller.gravityScale = 0;
             }
-            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer(groundLayer), verticalVelocity > 1);
-            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer(platformLayer), verticalVelocity > 1 || isClimbing || verticalInput < 0);
 
+            bool ignorePlatformCollisions = verticalVelocity > 1 || isClimbing || verticalInput < 0;
+            if (Physics2D.GetIgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer(platformLayer)))
+            {
+                
+                ignorePlatformCollisions |= Physics2D.OverlapBox(transform.position, new Vector2(4, 5), 0, LayerMask.GetMask(platformLayer));  //collider.OverlapCollider(contactFilter, results) > 0;
+            }
+            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer(platformLayer), ignorePlatformCollisions);
             controller.velocity = new Vector2(horizontalVelocity, verticalVelocity);
 
             if (horizontalInput * transform.localScale.x < 0)
@@ -60,7 +65,6 @@ public class Moe : MonoBehaviour
                 transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
             }
         }
-        /*
         if (isPushingObject && pushedObject)
         {
             Rigidbody2D objectRigidBody = pushedObject.GetComponent<Rigidbody2D>();
@@ -68,7 +72,7 @@ public class Moe : MonoBehaviour
             {
                 objectRigidBody.AddForce(controller.velocity.normalized * pushForce);
             }
-        }*/
+        }
     }
 
     public bool hasKey(int keyId)
@@ -102,8 +106,6 @@ public class Moe : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.gameObject.layer);
-        Debug.Log(ladderLayer);
         if (collision.gameObject.layer == LayerMask.NameToLayer(ladderLayer))
         {
             isClimbing = true;

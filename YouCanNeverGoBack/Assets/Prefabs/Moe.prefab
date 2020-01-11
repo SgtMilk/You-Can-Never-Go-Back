@@ -145,7 +145,7 @@ MonoBehaviour:
   walkingSpeed: 500
   jumpSpeed: 1000
   climbingSpeed: 500
-  pushForce: 100
+  pushForce: 10000
   defaultGravityScale: 3
   groundLayer: Ground
   pushableLayer: Pushable
