@@ -34,7 +34,7 @@ public class Moe : MonoBehaviour
                 transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
             }
         }
-
+        /*
         if (isPushingObject && pushedObject)
         {
             Rigidbody2D objectRigidBody = pushedObject.GetComponent<Rigidbody2D>();
@@ -42,7 +42,7 @@ public class Moe : MonoBehaviour
             {
                 objectRigidBody.AddForce(controller.velocity.normalized * pushForce);
             }
-        }
+        }*/
     }
 
     public bool hasKey(int keyId)
