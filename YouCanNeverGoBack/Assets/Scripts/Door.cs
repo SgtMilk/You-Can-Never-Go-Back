@@ -23,7 +23,7 @@ public class Door : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Moe moe = collision.gameObject.GetComponent<Moe>();
-        if (moe && moe.hasKey(keyId)) {
+        if (moe && (keyId == -1 || moe.hasKey(keyId))) {
             StartCoroutine(ChangeScene());
         }
     }
