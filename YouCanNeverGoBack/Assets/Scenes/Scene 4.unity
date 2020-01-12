@@ -626,6 +626,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ladder
       objectReference: {fileID: 0}
+    - target: {fileID: 5188781692175848488, guid: 233fd2c86e9610048b9a26f9e5444843,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 233fd2c86e9610048b9a26f9e5444843, type: 3}
 --- !u!1001 &408997469
@@ -759,6 +764,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7113442140448104603, guid: 9416198abe059f7459fd0029cb2d5360,
+        type: 3}
+      propertyPath: m_Text
+      value: Press P to pull the lever
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910058243178332252, guid: 9416198abe059f7459fd0029cb2d5360,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -131.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910058243178332252, guid: 9416198abe059f7459fd0029cb2d5360,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 124.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910058243178332252, guid: 9416198abe059f7459fd0029cb2d5360,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 343.17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9416198abe059f7459fd0029cb2d5360, type: 3}
@@ -3625,6 +3650,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 103719967652660662, guid: 183204c9a486d834382c8044b383fa5b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -73.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 103719967652660662, guid: 183204c9a486d834382c8044b383fa5b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 132.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 103719967652660662, guid: 183204c9a486d834382c8044b383fa5b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 459.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 103719967652660662, guid: 183204c9a486d834382c8044b383fa5b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 13.85
+      objectReference: {fileID: 0}
     - target: {fileID: 3041291901104153368, guid: 183204c9a486d834382c8044b383fa5b,
         type: 3}
       propertyPath: m_Name
