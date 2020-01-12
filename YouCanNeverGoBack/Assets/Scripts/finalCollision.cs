@@ -12,14 +12,25 @@ public class finalCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-     
+        if (collision.CompareTag("Finish"))
+        {
+            raftThere = true;
+        }
+
         Moe moe = collision.gameObject.GetComponent<Moe>();
 
-        if (moe)
+        if (moe && raftThere)
         {
-            SceneManager.LoadScene(nextSceneName);
-
+            StartCoroutine(ChangeScene());
         }
+    }
+
+    private IEnumerator ChangeScene()
+    {
+        GetComponentInChildren<Animator>().SetTrigger("ChangeScene");
+        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(nextSceneName);
     }
 }
 
