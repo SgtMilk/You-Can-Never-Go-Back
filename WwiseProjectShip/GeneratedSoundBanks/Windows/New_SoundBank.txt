@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1404805401	DoorOpen			\Default Work Unit\DoorOpen	
 	2133237984	FSstop			\Default Work Unit\FSstop	
 	2607556080	Menu			\Default Work Unit\Menu	
+	3086540886	StopAll			\Default Work Unit\StopAll	
 	3092587493	Pause			\Default Work Unit\Pause	
 	3202316517	Switch			\Default Work Unit\Switch	
 	3288489714	MusicSoft			\Default Work Unit\MusicSoft	

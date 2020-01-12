@@ -27,6 +27,8 @@ public class Moe : MonoBehaviour
 
     public GameObject wwiseObj;
 
+    private bool inputsActivated = true;
+
     private bool canPushObject = false;
     private bool isPushingObject = false;
     private bool isClimbing = false;
@@ -43,6 +45,8 @@ public class Moe : MonoBehaviour
         {
             controller.gravityScale = defaultGravityScale;
         }
+        sndPushStop.Post(wwiseObj);
+        footstepStop.Post(wwiseObj);
     }
 
     // Update is called once per frame
@@ -50,7 +54,7 @@ public class Moe : MonoBehaviour
     {
         Debug.DrawRay(transform.position, Vector3.up, isClimbing? Color.green:Color.red);
         Rigidbody2D controller = GetComponent<Rigidbody2D>();
-        if (controller)
+        if (inputsActivated && controller)
         {
             controller.gravityScale = defaultGravityScale;
             float horizontalInput = Input.GetAxisRaw("Horizontal");
@@ -172,6 +176,13 @@ public class Moe : MonoBehaviour
             }
         }
         return false;
+    }
+
+    public void sceneCompleted()
+    {
+        inputsActivated = false;
+        sndPushStop.Post(wwiseObj);
+        footstepStop.Post(wwiseObj);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

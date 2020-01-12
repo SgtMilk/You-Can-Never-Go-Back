@@ -422,6 +422,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Orages-001" ID="{6C578938-57A8-4EE6-BA65-95493F9FDBDE}" ShortID="2496789">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7C34F73B-4F02-49FB-B9FA-8F8E4853C03B}"/>
@@ -466,6 +473,11 @@
 												<Value>15</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -492,6 +504,11 @@
 												<Value>11</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -515,12 +532,19 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Jumps" ID="{9ABF845E-6CFB-47F7-A996-065DF8503D10}" ShortID="1038717689">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{AF0B7298-92EC-4278-B1C1-36A48C84A608}"/>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -536,6 +560,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -809,7 +838,18 @@
 						</Sound>
 						<Sound Name="DoorOpen-002" ID="{151AE4EB-2886-45CC-9A21-72E2A80BD306}" ShortID="335173308">
 							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

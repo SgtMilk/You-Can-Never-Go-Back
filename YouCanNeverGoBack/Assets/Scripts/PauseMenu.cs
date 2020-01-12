@@ -12,6 +12,7 @@ public class PauseMenu : MonoBehaviour
 
     public AK.Wwise.Event PauseMusic;
     public AK.Wwise.Event UnPauseMusic;
+    public AK.Wwise.Event StopAll;
 
     public GameObject wwiseObj;
 
@@ -47,15 +48,6 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("Menu");
-        
-    }
-
-    public void LoadMenu()
-    {
-        Time.timeScale = 1f;
-        Debug.Log("Loading game");
         Application.Quit();
     }
 

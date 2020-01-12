@@ -66,6 +66,10 @@
 							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="StopAll" ID="{525B79E4-842A-4C49-A667-664260F978FE}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="PushStop" ID="{D2537AFE-12A1-40C5-960F-65D9FC023D3B}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
 							<Position X="4" Y="2"/>
 						</Module>

@@ -28,6 +28,7 @@ public class Door : MonoBehaviour
     {
         Moe moe = collision.gameObject.GetComponent<Moe>();
         if (moe && (keyId == -1 || moe.hasKey(keyId))) {
+            moe.sceneCompleted();
             StartCoroutine(ChangeScene());
         }
     }
