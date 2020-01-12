@@ -77,7 +77,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Intense" ID="{588DA0AA-06E2-40AE-BB6F-1FA5E17DA3A2}"/>
+						<CurrentSwitchRef Name="Low" ID="{E77A84CD-249F-49AE-ADD0-E6F170607267}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
