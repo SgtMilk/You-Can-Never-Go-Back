@@ -192,7 +192,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 1
   m_AngularDrag: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 2
   m_Material: {fileID: 6200000, guid: 095cee4588ff9ac4b9b75a2cb4ba8477, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -214,7 +214,7 @@ MonoBehaviour:
   runningSpeed: 1000
   jumpSpeed: 1000
   climbingSpeed: 500
-  defaultGravityScale: 3
+  defaultGravityScale: 2
   groundLayer: Ground
   pushableLayer: Pushable
   ladderLayer: Ladder

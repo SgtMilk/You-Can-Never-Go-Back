@@ -3038,12 +3038,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 332.8
       objectReference: {fileID: 0}
-    - target: {fileID: 1966547306498249329, guid: 183204c9a486d834382c8044b383fa5b,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 6f473ea571ad2e349896958ea838af4a,
-        type: 3}
     - target: {fileID: 3041291901104153368, guid: 183204c9a486d834382c8044b383fa5b,
         type: 3}
       propertyPath: m_Name
@@ -3272,12 +3266,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1966547306498249329, guid: 183204c9a486d834382c8044b383fa5b,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 6f473ea571ad2e349896958ea838af4a,
-        type: 3}
     - target: {fileID: 3041291901104153368, guid: 183204c9a486d834382c8044b383fa5b,
         type: 3}
       propertyPath: m_Name
