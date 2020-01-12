@@ -5364,13 +5364,18 @@ PrefabInstance:
     - target: {fileID: 7814026227820916665, guid: 36e1aa8fee8ad4947b42de895766fe81,
         type: 3}
       propertyPath: cameraShakeMaxAmount
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7814026227820916665, guid: 36e1aa8fee8ad4947b42de895766fe81,
         type: 3}
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1078776981}
+    - target: {fileID: 7814026227820916665, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: maxDurationBetween
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
         type: 3}
       propertyPath: m_LocalPosition.x

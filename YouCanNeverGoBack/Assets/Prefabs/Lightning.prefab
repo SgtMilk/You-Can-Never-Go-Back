@@ -109,5 +109,5 @@ MonoBehaviour:
   minIntensity: 2
   minDurationBetween: 4
   maxDurationBetween: 16
-  cameraShakeMaxAmount: 20
+  cameraShakeMaxAmount: 5
   cameraShake: {fileID: 0}
