@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 417265708}
   - component: {fileID: 417265710}
   - component: {fileID: 417265707}
+  - component: {fileID: 417265711}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -232,6 +233,23 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &417265711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417265706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a75b9d87af706a4383cc678d999eef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugMode: 0
+  shakeAmount: 0
+  shakeDuration: 0
+  smooth: 0
+  smoothAmount: 5
 --- !u!1001 &1040734055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -368,5 +386,84 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1401933178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7814026227820916664, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_Name
+      value: Lightning
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916665, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: cameraShake
+      value: 
+      objectReference: {fileID: 417265711}
+    - target: {fileID: 7814026227820916665, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: cameraShakeMaxAmount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.318522
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6135526
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -79.07656
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.40821788
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.23456968
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.10938163
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8754261
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 36e1aa8fee8ad4947b42de895766fe81, type: 3}
