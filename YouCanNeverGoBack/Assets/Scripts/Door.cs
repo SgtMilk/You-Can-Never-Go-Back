@@ -32,6 +32,8 @@ public class Door : MonoBehaviour
     {
         GetComponent<Animator>().SetTrigger("OpenDoor");
         GetComponentInChildren<Animator>().SetTrigger("ChangeScene");
+        yield return new WaitForSeconds(0.2f);
+        //transform.Translate(new Vector2(-2f, 0));
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(nextSceneName);
     }
