@@ -309,6 +309,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door1
       objectReference: {fileID: 0}
+    - target: {fileID: 677482434285569489, guid: d82dfcd18e299e64b9d2de0189c74864,
+        type: 3}
+      propertyPath: nextSceneName
+      value: Level2
+      objectReference: {fileID: 0}
+    - target: {fileID: 677482434285569489, guid: d82dfcd18e299e64b9d2de0189c74864,
+        type: 3}
+      propertyPath: keyId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 677482434285569490, guid: d82dfcd18e299e64b9d2de0189c74864,
         type: 3}
       propertyPath: m_EdgeRadius
