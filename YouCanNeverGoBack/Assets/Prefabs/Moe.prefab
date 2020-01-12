@@ -42,7 +42,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 0.8962264, g: 0.74943656, b: 0.47770557, a: 1}
-  m_Intensity: 2500
+  m_Intensity: 250
   m_Range: 50
   m_SpotAngle: 34
   m_InnerSpotAngle: 21.80208
@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 8134005872244402906}
   - component: {fileID: 8134005872244402910}
   - component: {fileID: 1770471640362915864}
+  - component: {fileID: 1957725149949865328}
   m_Layer: 0
   m_Name: Moe
   m_TagString: Untagged
@@ -143,7 +144,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae1dd4e566e28554db33e5424df160dc, type: 2}
+  - {fileID: 2100000, guid: 2ef31536d39814ad3b342e2a799b13ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -164,7 +165,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 9cda2cac52235e84391ddbf6d5e7b45a, type: 3}
+  m_Sprite: {fileID: -2715611628822418919, guid: 8678ee49fffcf40498b7e5af64610d16,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -250,3 +252,22 @@ EdgeCollider2D:
   - {x: 1.0092708, y: 0.22429132}
   - {x: 1.0031271, y: -0.7316638}
   - {x: 1.0868948, y: -0.8440436}
+--- !u!95 &1957725149949865328
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8134005872244402901}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1e50f9f98ecdfbd4b8fab31b60a5625e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -188,6 +188,7 @@ GameObject:
   - component: {fileID: 355470340061209223}
   - component: {fileID: 8608357301318201320}
   - component: {fileID: 4014986387777358258}
+  - component: {fileID: 5397359976109729282}
   m_Layer: 12
   m_Name: LeverSmall
   m_TagString: Untagged
@@ -299,3 +300,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventToTrigger: {fileID: 0}
   textComponent: {fileID: 8649107268208017523}
+--- !u!114 &5397359976109729282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3490964442008703070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cda6fec84d345d47ad54bd1417ab506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 0}

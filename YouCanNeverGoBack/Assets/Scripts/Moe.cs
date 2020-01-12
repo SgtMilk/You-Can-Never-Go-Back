@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Moe : MonoBehaviour
 {
@@ -86,6 +87,9 @@ public class Moe : MonoBehaviour
                     }
                 }
             }
+
+            GetComponent<Animator>().SetFloat("horizontalVelocity", Mathf.Abs(horizontalVelocity));
+
             controller.velocity = new Vector2(horizontalVelocity, verticalVelocity);
 
             if (horizontalInput * transform.localScale.x < 0)
@@ -144,7 +148,7 @@ public class Moe : MonoBehaviour
 
         if (collision.gameObject.layer == LayerMask.NameToLayer(waterLayer))
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 
