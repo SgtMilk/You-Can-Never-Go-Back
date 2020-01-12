@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: 34346c188813d0e4197d6f29932f86c6
-=======
-guid: c4a74eb0b56ba4f6d97df45fea8b66f9
->>>>>>> 99e56c9767916b3742a35b4046775a3411bfd026
-=======
-guid: a59f13f243cb3af499e7d56cbc97aa03
-=======
-guid: c4a74eb0b56ba4f6d97df45fea8b66f9
->>>>>>> 34105164b468fb96440e568fbdc48697805a7ebf
->>>>>>> 6bf9dd18c94f27b8552c028d24a3c87b323a5104
-=======
-guid: a59f13f243cb3af499e7d56cbc97aa03
->>>>>>> 4304724d1156dba8e37955e6bf50fdc5c74f3d2b
+guid: 9049f22f16971334186f62f4697dcb4a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7744667966587009813
+    second: big boat_0
+  - first:
+      213: 2904467284707896183
+    second: big boat_1
+  - first:
+      213: -1376642696991775065
+    second: big boat_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -51,11 +45,11 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -99,7 +93,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: big boat_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 990
+        width: 901
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a52589ad5b4ed4c8e4afa361afe373
+      internalID: 7744667966587009813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big boat_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 520
+        width: 901
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b963bdd66d71cb41a5a1dd1ca75441c
+      internalID: 2904467284707896183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big boat_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 34
+        width: 901
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bd4c8441b7f774bb30f673b9351029
+      internalID: -1376642696991775065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

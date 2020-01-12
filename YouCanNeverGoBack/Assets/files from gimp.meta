@@ -1,10 +1,5 @@
 fileFormatVersion: 2
-guid: bad47ee39f1788046aebd18375b393b4
-labels:
-- Unity2d
-- Shaders
-- Scripting
-- Playmaker
+guid: fa9389ee5d1ca8e4d8cec25eb6802ad6
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

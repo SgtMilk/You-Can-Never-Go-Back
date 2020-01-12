@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Moe : MonoBehaviour
 {
@@ -144,7 +145,7 @@ public class Moe : MonoBehaviour
 
         if (collision.gameObject.layer == LayerMask.NameToLayer(waterLayer))
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 
