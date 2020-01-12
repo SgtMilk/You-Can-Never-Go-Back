@@ -213,7 +213,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press Ctrl to pull lever
+  m_Text: Press C to pull lever
 --- !u!1 &5167757345077910852
 GameObject:
   m_ObjectHideFlags: 0
