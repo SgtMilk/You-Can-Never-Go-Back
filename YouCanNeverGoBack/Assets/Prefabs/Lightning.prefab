@@ -111,3 +111,7 @@ MonoBehaviour:
   maxDurationBetween: 16
   cameraShakeMaxAmount: 5
   cameraShake: {fileID: 0}
+  sndTunder:
+    ID: 857938122
+    valueGuid: cafcc38696eb434c9e50e7fe29a2703a
+  wwiseObj: {fileID: 0}

@@ -276,6 +276,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8134005872244402910, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 2047901214}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ff54c9cfe25b554d91bb987bcd444b6, type: 3}
 --- !u!1 &419791622
@@ -386,6 +391,11 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1852767310}
+    - target: {fileID: 7814026227820916665, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 2047901214}
     - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -7,6 +7,12 @@ public class Lever : MonoBehaviour
     public TrigerrableEvent eventToTrigger;
     public Canvas textComponent;
 
+    public bool changesMusic = false;
+
+    public AK.Wwise.Event intenseMusic;
+    public AK.Wwise.Event pullLever;
+    public GameObject wwiseObj;
+
     private bool isBeingPulled = false;
 
     public void Start()
@@ -18,6 +24,8 @@ public class Lever : MonoBehaviour
     {
         if (!isBeingPulled)
         {
+            pullLever.Post(wwiseObj);
+            if (changesMusic) intenseMusic.Post(wwiseObj);
             isBeingPulled = true;
             GetComponent<Animator>().SetTrigger("Pull");
             eventToTrigger.trigger();

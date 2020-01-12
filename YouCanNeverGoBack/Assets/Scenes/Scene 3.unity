@@ -744,6 +744,11 @@ PrefabInstance:
       propertyPath: runningSpeed
       value: 750
       objectReference: {fileID: 0}
+    - target: {fileID: 8134005872244402910, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 494415203}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ff54c9cfe25b554d91bb987bcd444b6, type: 3}
 --- !u!1001 &181699234
@@ -947,6 +952,11 @@ PrefabInstance:
       propertyPath: nextSceneName
       value: Scene 4
       objectReference: {fileID: 0}
+    - target: {fileID: 677482434285569489, guid: d82dfcd18e299e64b9d2de0189c74864,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 494415203}
     - target: {fileID: 677482434285569490, guid: d82dfcd18e299e64b9d2de0189c74864,
         type: 3}
       propertyPath: m_UsedByComposite
@@ -1407,6 +1417,11 @@ PrefabInstance:
       propertyPath: cameraShakeMaxAmount
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916665, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 494415203}
     - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2251,6 +2266,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 780338873}
+  PauseMusic:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  UnPauseMusic:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  wwiseObj: {fileID: 0}
 --- !u!114 &1046988243
 MonoBehaviour:
   m_ObjectHideFlags: 0

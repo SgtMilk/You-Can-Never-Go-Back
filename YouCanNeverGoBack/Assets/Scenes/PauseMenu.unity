@@ -950,6 +950,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1724686271}
+  PauseMusic:
+    ID: -1202379803
+    valueGuid: 0a3b3c88debc9b479f63d588c95cb28d
+  UnPauseMusic:
+    ID: -882098922
+    valueGuid: 6769380df2cf5c48be00eb2cb4b6565c
+  wwiseObj: {fileID: 1883621108}
 --- !u!1 &1883621108
 GameObject:
   m_ObjectHideFlags: 0

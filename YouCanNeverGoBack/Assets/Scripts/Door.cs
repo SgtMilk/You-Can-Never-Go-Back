@@ -8,6 +8,10 @@ public class Door : MonoBehaviour
     public int keyId;
     public string nextSceneName;
 
+    public AK.Wwise.Event softMusic;
+    public AK.Wwise.Event openDoor;
+    public GameObject wwiseObj;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,10 +34,11 @@ public class Door : MonoBehaviour
 
     private IEnumerator ChangeScene()
     {
+        openDoor.Post(wwiseObj);
+        softMusic.Post(wwiseObj);
         GetComponent<Animator>().SetTrigger("OpenDoor");
         GetComponentInChildren<Animator>().SetTrigger("ChangeScene");
         yield return new WaitForSeconds(0.2f);
-        //transform.Translate(new Vector2(-2f, 0));
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(nextSceneName);
     }

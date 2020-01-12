@@ -137,6 +137,11 @@ PrefabInstance:
       propertyPath: eventToTrigger
       value: 
       objectReference: {fileID: 1351670235}
+    - target: {fileID: 6517794116633230423, guid: 9416198abe059f7459fd0029cb2d5360,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 731807308}
     - target: {fileID: 6932184270534585580, guid: 9416198abe059f7459fd0029cb2d5360,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -414,6 +419,11 @@ PrefabInstance:
       propertyPath: nextSceneName
       value: Scene6
       objectReference: {fileID: 0}
+    - target: {fileID: 677482434285569489, guid: d82dfcd18e299e64b9d2de0189c74864,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 731807308}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d82dfcd18e299e64b9d2de0189c74864, type: 3}
 --- !u!1001 &110440078
@@ -877,6 +887,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8134005872244402910, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 731807308}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ff54c9cfe25b554d91bb987bcd444b6, type: 3}
 --- !u!1 &293028851
@@ -994,6 +1009,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1789165049}
+  PauseMusic:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  UnPauseMusic:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  wwiseObj: {fileID: 0}
 --- !u!114 &309310609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1196,6 +1218,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventToTrigger: {fileID: 1351670235}
   textComponent: {fileID: 0}
+  changesMusic: 0
+  intenseMusic:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  pullLever:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  wwiseObj: {fileID: 0}
 --- !u!1 &359771373
 GameObject:
   m_ObjectHideFlags: 0
@@ -5396,6 +5426,11 @@ PrefabInstance:
       propertyPath: maxDurationBetween
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916665, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 731807308}
     - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6509,5 +6544,10 @@ PrefabInstance:
       propertyPath: id
       value: 55
       objectReference: {fileID: 0}
+    - target: {fileID: 2307352828205165055, guid: 570399890e22a914795b63b76380ee33,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 731807308}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 570399890e22a914795b63b76380ee33, type: 3}

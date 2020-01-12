@@ -12,7 +12,8 @@ public class Lightning : MonoBehaviour
     public float cameraShakeMaxAmount = 5;
     public CameraShake cameraShake;
     private new Light light;
-
+    public AK.Wwise.Event sndTunder;
+    public GameObject wwiseObj;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +33,7 @@ public class Lightning : MonoBehaviour
         while(true)
         {
             yield return new WaitForSeconds(Random.Range(minDurationBetween, maxDurationBetween));
+            sndTunder.Post(wwiseObj);
             for (int i = 0; i < 2; i++)
             {
                 light.intensity = Random.Range(minIntensity, mediumIntensity);

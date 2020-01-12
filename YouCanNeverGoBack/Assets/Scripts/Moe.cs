@@ -18,8 +18,20 @@ public class Moe : MonoBehaviour
     public string leverLayer;
     public string waterLayer;
 
+    public AK.Wwise.Event KeyPickup;
+    public AK.Wwise.Event sndJump;
+    public AK.Wwise.Event sndPush;
+    public AK.Wwise.Event sndPushStop;
+    public AK.Wwise.Event footstep;
+    public AK.Wwise.Event footstepStop;
+
+    public GameObject wwiseObj;
+
+    private bool canPushObject = false;
     private bool isPushingObject = false;
     private bool isClimbing = false;
+    private bool isWalking = false;
+    private bool isJumping = false;
     private GameObject pushedObject;
     private List<int> keys = new List<int>();
 
@@ -46,15 +58,21 @@ public class Moe : MonoBehaviour
             float horizontalVelocity = Time.deltaTime * horizontalInput * (Input.GetAxisRaw("Run") == 1 ? runningSpeed : walkingSpeed);
             float verticalVelocity = controller.velocity.y;
             
-            if (Input.GetAxisRaw("Jump") != 0 && isGrounded())
+            if (Input.GetAxisRaw("Jump") != 0 && isGrounded() && !isJumping)
             {
+                isJumping = true;
+                sndJump.Post(wwiseObj);
                 verticalVelocity = Time.deltaTime * jumpSpeed;
                 isClimbing = false;
             }
-            else if (isClimbing)
+            else 
             {
-                verticalVelocity = Time.deltaTime * climbingSpeed * verticalInput;
-                controller.gravityScale = 0;
+                isJumping = false;
+                if (isClimbing)
+                {
+                    verticalVelocity = Time.deltaTime * climbingSpeed * verticalInput;
+                    controller.gravityScale = 0;
+                }
             }
 
             bool ignorePlatformCollisions = verticalVelocity > 1 || isClimbing || verticalInput < 0;
@@ -65,10 +83,17 @@ public class Moe : MonoBehaviour
             }
             Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer(platformLayer), ignorePlatformCollisions);
 
+            bool push = false;
             if (Input.GetAxisRaw("Action") == 1)
             {
-                if (isPushingObject && pushedObject)
+                if (canPushObject && pushedObject)
                 {
+                    push = true;
+                    if (!isPushingObject)
+                    {
+                        sndPush.Post(wwiseObj);
+                        isPushingObject = true;
+                    }
                     Debug.DrawRay(pushedObject.transform.position, Vector3.up, Color.white);
                     Rigidbody2D objectRigidBody = pushedObject.GetComponentInChildren<Rigidbody2D>();
                     if (objectRigidBody)
@@ -91,7 +116,24 @@ public class Moe : MonoBehaviour
                 }
             }
 
-            GetComponent<Animator>().SetFloat("horizontalVelocity", Mathf.Abs(horizontalVelocity));
+            if (!push && isPushingObject)
+            {
+                sndPushStop.Post(wwiseObj);
+                isPushingObject = false;
+            }
+
+            float absoluteVelocity = Mathf.Abs(horizontalVelocity);
+            if (!isWalking && absoluteVelocity > 0.1)
+            {
+                footstep.Post(wwiseObj);
+                isWalking = true;
+            }
+            else if (isWalking && absoluteVelocity <= 0.1)
+            {
+                footstepStop.Post(wwiseObj);
+                isWalking = false;
+            }
+            GetComponent<Animator>().SetFloat("horizontalVelocity", absoluteVelocity);
 
             controller.velocity = new Vector2(horizontalVelocity, verticalVelocity);
 
@@ -110,6 +152,7 @@ public class Moe : MonoBehaviour
 
     public void collectKey(int keyId)
     {
+        KeyPickup.Post(wwiseObj);
         keys.Add(keyId);
     }
 
@@ -141,11 +184,13 @@ public class Moe : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer(pushableLayer))
         {
             pushedObject = collision.gameObject;
-            isPushingObject = true;
+            canPushObject = true;
         }
 
         if (collision.gameObject.layer == LayerMask.NameToLayer(waterLayer))
         {
+            sndPushStop.Post(wwiseObj);
+            footstepStop.Post(wwiseObj);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
@@ -158,7 +203,7 @@ public class Moe : MonoBehaviour
         }
         if (collision.gameObject.layer == LayerMask.NameToLayer(pushableLayer))
         {
-            isPushingObject = false;
+            canPushObject = false;
         }
     }
 

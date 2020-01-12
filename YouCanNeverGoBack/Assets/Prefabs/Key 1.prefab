@@ -122,6 +122,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
+  changesMusic: 1
+  intenseMusic:
+    ID: -608037736
+    valueGuid: 8695cc2058f73d4692d49a3ab93f7751
+  wwiseObj: {fileID: 0}
 --- !u!1 &8498301840605837560
 GameObject:
   m_ObjectHideFlags: 0

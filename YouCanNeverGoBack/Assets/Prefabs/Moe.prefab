@@ -221,6 +221,25 @@ MonoBehaviour:
   platformLayer: Platform
   leverLayer: Lever
   waterLayer: Water
+  KeyPickup:
+    ID: -648972842
+    valueGuid: ebcc118b31546344930836fe40639041
+  sndJump:
+    ID: 1071740888
+    valueGuid: d28fbbc41b552e41936d0e70bf5b0830
+  sndPush:
+    ID: 564926307
+    valueGuid: a2ea74ca0e4c024aa1a15312a01b8b4f
+  sndPushStop:
+    ID: -195551135
+    valueGuid: fe7a53d2a112c540960f65d9fc023d3b
+  footstep:
+    ID: 1136921630
+    valueGuid: 87b97e8325aafb4bbe3590547840d664
+  footstepStop:
+    ID: 2133237984
+    valueGuid: 9f706c2cb772b6468f30d04273031fd0
+  wwiseObj: {fileID: 0}
 --- !u!68 &1770471640362915864
 EdgeCollider2D:
   m_ObjectHideFlags: 0

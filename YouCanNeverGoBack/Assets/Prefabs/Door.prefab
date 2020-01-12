@@ -224,6 +224,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyId: 0
   nextSceneName: Scene2
+  softMusic:
+    ID: -1006477582
+    valueGuid: 81add2d1bd7ee84fbb13529da9f51d72
+  openDoor:
+    ID: 1404805401
+    valueGuid: 2d09cf863dbfca41ba1a642b639e83ef
+  wwiseObj: {fileID: 0}
 --- !u!95 &8294220661098096574
 Animator:
   serializedVersion: 3

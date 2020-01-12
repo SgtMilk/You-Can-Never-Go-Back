@@ -300,6 +300,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventToTrigger: {fileID: 0}
   textComponent: {fileID: 8649107268208017523}
+  changesMusic: 0
+  intenseMusic:
+    ID: -608037736
+    valueGuid: 8695cc2058f73d4692d49a3ab93f7751
+  pullLever:
+    ID: -1092650779
+    valueGuid: 4b14a5d26bf5ea46ac921086b5430487
+  wwiseObj: {fileID: 0}
 --- !u!114 &5397359976109729282
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,6 +5,10 @@ using UnityEngine;
 public class Key : MonoBehaviour
 {
     public int id;
+    public bool changesMusic = true;
+
+    public AK.Wwise.Event intenseMusic;
+    public GameObject wwiseObj;
 
     // Start is called before the first frame update
     void Start()
@@ -23,28 +27,9 @@ public class Key : MonoBehaviour
         Moe moe = collision.gameObject.GetComponent<Moe>();
         if (moe)
         {
+            if (changesMusic) intenseMusic.Post(wwiseObj);
             moe.collectKey(id);
             Destroy(gameObject);
         }
     }
-
-    /*private void OnTriggerEnter2D(Collision2D collision)
-    {
-        
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-
-    }*/
 }

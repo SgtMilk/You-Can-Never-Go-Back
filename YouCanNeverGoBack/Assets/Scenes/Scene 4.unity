@@ -457,6 +457,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1695394604}
+  PauseMusic:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  UnPauseMusic:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  wwiseObj: {fileID: 0}
 --- !u!114 &281882063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -643,6 +650,11 @@ PrefabInstance:
       propertyPath: eventToTrigger
       value: 
       objectReference: {fileID: 1120196484}
+    - target: {fileID: 6517794116633230423, guid: 9416198abe059f7459fd0029cb2d5360,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 1236776903}
     - target: {fileID: 6932184270534585580, guid: 9416198abe059f7459fd0029cb2d5360,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1737,6 +1749,11 @@ PrefabInstance:
       propertyPath: nextSceneName
       value: Scene5
       objectReference: {fileID: 0}
+    - target: {fileID: 677482434285569489, guid: d82dfcd18e299e64b9d2de0189c74864,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 1236776903}
     - target: {fileID: 677482434285569491, guid: d82dfcd18e299e64b9d2de0189c74864,
         type: 3}
       propertyPath: m_SortingOrder
@@ -1994,7 +2011,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1244166791
 PrefabInstance:
@@ -2380,6 +2397,11 @@ PrefabInstance:
       propertyPath: maxDurationBetween
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7814026227820916665, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 1236776903}
     - target: {fileID: 7814026227820916667, guid: 36e1aa8fee8ad4947b42de895766fe81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3083,6 +3105,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2307352828205165055, guid: 570399890e22a914795b63b76380ee33,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 1236776903}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 570399890e22a914795b63b76380ee33, type: 3}
 --- !u!1 &1695394604
@@ -3584,6 +3611,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8134005872244402910, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 1236776903}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ff54c9cfe25b554d91bb987bcd444b6, type: 3}
 --- !u!1001 &2088697411

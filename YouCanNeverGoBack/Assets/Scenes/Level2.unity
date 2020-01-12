@@ -350,6 +350,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2307352828205165055, guid: 570399890e22a914795b63b76380ee33,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 1980234610}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 570399890e22a914795b63b76380ee33, type: 3}
 --- !u!1 &82298157
@@ -1463,6 +1468,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8134005872244402910, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 1980234610}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ff54c9cfe25b554d91bb987bcd444b6, type: 3}
 --- !u!1 &779447452
@@ -3514,6 +3524,11 @@ PrefabInstance:
       propertyPath: nextSceneName
       value: Scene 3
       objectReference: {fileID: 0}
+    - target: {fileID: 677482434285569489, guid: d82dfcd18e299e64b9d2de0189c74864,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 1980234610}
     - target: {fileID: 5287977082825258608, guid: d82dfcd18e299e64b9d2de0189c74864,
         type: 3}
       propertyPath: m_IsActive
@@ -3705,6 +3720,11 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 121651701}
+    - target: {fileID: 7814026227820916665, guid: 36e1aa8fee8ad4947b42de895766fe81,
+        type: 3}
+      propertyPath: wwiseObj
+      value: 
+      objectReference: {fileID: 1980234610}
     - target: {fileID: 7814026227820916666, guid: 36e1aa8fee8ad4947b42de895766fe81,
         type: 3}
       propertyPath: m_Shadows.m_Type
@@ -3800,6 +3820,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 779447452}
+  PauseMusic:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  UnPauseMusic:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  wwiseObj: {fileID: 0}
 --- !u!114 &1974721346
 MonoBehaviour:
   m_ObjectHideFlags: 0

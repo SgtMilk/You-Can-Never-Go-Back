@@ -8,7 +8,12 @@ public class PauseMenu : MonoBehaviour
     // Start is called before the first frame update
    
     public static bool isPaused = false;
-    public GameObject pauseMenuUI; 
+    public GameObject pauseMenuUI;
+
+    public AK.Wwise.Event PauseMusic;
+    public AK.Wwise.Event UnPauseMusic;
+
+    public GameObject wwiseObj;
 
     // Update is called once per frame
     void Update()

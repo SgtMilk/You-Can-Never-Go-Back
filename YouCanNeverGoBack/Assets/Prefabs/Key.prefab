@@ -121,3 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
+  changesMusic: 1
+  intenseMusic:
+    ID: -608037736
+    valueGuid: 8695cc2058f73d4692d49a3ab93f7751
+  wwiseObj: {fileID: 0}
