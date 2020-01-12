@@ -426,6 +426,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66030a006a2c8ca44852910607d4ae91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MenuStop:
+    ID: 1074254744
+    valueGuid: 8668a8437db5f449beeae22f167cb37d
+  MusicGame:
+    ID: -668772442
+    valueGuid: f2d70f111dca3c40a144b34657f3ec31
+  wwiseObj: {fileID: 1597012905}
 --- !u!1 &526761031
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,6 +946,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1597012907}
   - component: {fileID: 1597012906}
+  - component: {fileID: 1597012909}
+  - component: {fileID: 1597012908}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -988,6 +997,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1597012908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597012905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae5976825c1d9b42a0b35455cb8ac8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MenuMusic:
+    ID: -1687411216
+    valueGuid: 608061182ef73a4b8d51431fab645ffd
+--- !u!114 &1597012909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597012905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 863f36277f2598e45be8344c0f6bcd0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  bankName: New_SoundBank
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  valueGuid: e3e6f3e3a324724f83690b10b993783e
 --- !u!1 &1676106725
 GameObject:
   m_ObjectHideFlags: 0

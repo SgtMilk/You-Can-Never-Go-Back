@@ -1,6 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E069BA72-12E2-4D03-90BC-18F22F850A01}" SchemaVersion="89">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{E069BA72-12E2-4D03-90BC-18F22F850A01}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E069BA72-12E2-4D03-90BC-18F22F850A01}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{EFAB69C0-526B-486B-95D4-09E4BACF23F8}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Menu" ID="{18618060-F72E-4B3A-8D51-431FAB645FFD}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AInitGame" ID="{110FD7F2-CA1D-403C-A144-B34657F3EC31}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FSPlay" ID="{837EB987-AA25-4BFB-BE35-90547840D664}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Switch" ID="{D2A5144B-F56B-46EA-AC92-1086B5430487}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MenuStop" ID="{43A86886-B57D-49F4-BEEA-E22F167CB37D}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Orages" ID="{86C3FCCA-EB96-4C43-9E50-E7FE29A2703A}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FSstop" ID="{2C6C709F-72B7-46B6-8F30-D04273031FD0}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DoorOpen" ID="{86CF092D-BF3D-41CA-BA1A-642B639E83EF}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pause" ID="{883C3B0A-BCDE-479B-9F63-D588C95CB28D}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MusicIntense" ID="{20CC9586-F758-463D-92D4-9A3AB93F7751}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Jumps" ID="{C4BB8FD2-551B-412E-936D-0E70BF5B0830}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="KeysPick" ID="{8B11CCEB-5431-4463-9308-36FE40639041}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Unpause" ID="{0D386967-CFF2-485C-BE00-EB2CB4B6565C}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MusicSoft" ID="{D1D2AD81-7EBD-4FE8-BB13-529DA9F51D72}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PushStart" ID="{CA74EAA2-4C0E-4A02-A1A1-5312A01B8B4F}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PushStop" ID="{D2537AFE-12A1-40C5-960F-65D9FC023D3B}" WorkUnitID="{96689A12-40B4-47BD-967B-8809A6F75B14}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Low" ID="{E77A84CD-249F-49AE-ADD0-E6F170607267}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

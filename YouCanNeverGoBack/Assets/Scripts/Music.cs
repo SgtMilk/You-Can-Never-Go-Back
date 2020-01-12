@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Music : MonoBehaviour
 {
-    public AK.Wwise.Event Cracks;
+    public AK.Wwise.Event MenuMusic;
     // Start is called before the first frame update
     void Start()
     {
-        Cracks.Post(gameObject);
+        MenuMusic.Post(gameObject);
     }
 
     // Update is called once per frame
