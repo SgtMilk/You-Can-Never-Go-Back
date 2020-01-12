@@ -2492,7 +2492,7 @@ PrefabInstance:
     - target: {fileID: 1495979709626551146, guid: 8ef567a4d3e574141b5832729f0b59f3,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1495979709626551147, guid: 8ef567a4d3e574141b5832729f0b59f3,
         type: 3}
@@ -2751,16 +2751,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134005872244402910, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
-        type: 3}
-      propertyPath: walkingSpeed
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134005872244402910, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
-        type: 3}
-      propertyPath: jumpSpeed
-      value: 1500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ff54c9cfe25b554d91bb987bcd444b6, type: 3}
