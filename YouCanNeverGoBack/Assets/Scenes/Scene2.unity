@@ -165,7 +165,6 @@ MonoBehaviour:
   maxSoundPropagationDepth: 0
   diffractionFlags: 0
   engineLogging: 0
-
 --- !u!4 &1418826953
 Transform:
   m_ObjectHideFlags: 0
