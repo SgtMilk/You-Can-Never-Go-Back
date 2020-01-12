@@ -477,7 +477,7 @@ PrefabInstance:
     - target: {fileID: 677482434285569488, guid: d82dfcd18e299e64b9d2de0189c74864,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 677482434285569489, guid: d82dfcd18e299e64b9d2de0189c74864,
         type: 3}
@@ -572,7 +572,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 240}
-  m_SizeDelta: {x: 764.5, y: 90}
+  m_SizeDelta: {x: 764.5, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &618623901
 MonoBehaviour:
@@ -606,6 +606,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 2
   m_Text: 'The boat is sinking!
+
 
     Use WASD or the arrows to navigate, the space bar to jump, Shift to sprint, esc
     to pause the game'
