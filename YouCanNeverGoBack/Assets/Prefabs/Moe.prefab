@@ -210,7 +210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 270f2795fcd079f45bfa3a1042d78313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkingSpeed: 500
+  walkingSpeed: 750
+  runningSpeed: 1000
   jumpSpeed: 1000
   climbingSpeed: 500
   defaultGravityScale: 3
