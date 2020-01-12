@@ -286,6 +286,58 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StopAll" ID="{525B79E4-842A-4C49-A667-664260F978FE}">
+					<ChildrenList>
+						<Action Name="" ID="{0073E649-4A51-4F79-9FC0-0792ECEDA780}" ShortID="1050757500">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CubePush" ID="{C2D3C47A-6FE1-4CA6-B9B8-0AACE9693467}" WorkUnitID="{C4D6568B-9819-4717-ADEF-38AA49381340}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2B9873D4-A49D-4150-AEB0-7815F0BAD74B}" ShortID="953181159">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal" ID="{DE3C46DA-3E7C-4A1E-B45C-380DFF3610D8}" WorkUnitID="{C4D6568B-9819-4717-ADEF-38AA49381340}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{02026D71-5EFE-4A35-9925-6A0B49286F9B}" ShortID="632526290">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicSwitch" ID="{EAFAA3C5-525D-4B3A-92C2-7EC7C1C7D3B9}" WorkUnitID="{18B78B21-E0A5-4977-B6B1-6EC0AE11A667}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{884D48DD-EDAC-4AAA-8070-99CAE22F7160}" ShortID="729273807">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu" ID="{1F5B47D9-F4FA-444F-8901-9061A26BC39F}" WorkUnitID="{18B78B21-E0A5-4977-B6B1-6EC0AE11A667}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

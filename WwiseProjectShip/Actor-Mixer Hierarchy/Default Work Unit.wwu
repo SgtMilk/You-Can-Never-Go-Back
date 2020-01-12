@@ -515,12 +515,19 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Jumps" ID="{9ABF845E-6CFB-47F7-A996-065DF8503D10}" ShortID="1038717689">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{AF0B7298-92EC-4278-B1C1-36A48C84A608}"/>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -536,6 +543,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>

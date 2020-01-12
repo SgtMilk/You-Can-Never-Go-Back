@@ -35,6 +35,7 @@
 				<Event Id="3092587493" Name="Pause" ObjectPath="\Events\Default Work Unit\Pause"/>
 				<Event Id="564926307" Name="PushStart" ObjectPath="\Events\Default Work Unit\PushStart"/>
 				<Event Id="4099416161" Name="PushStop" ObjectPath="\Events\Default Work Unit\PushStop"/>
+				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\StopAll"/>
 				<Event Id="3202316517" Name="Switch" ObjectPath="\Events\Default Work Unit\Switch"/>
 				<Event Id="3412868374" Name="Unpause" ObjectPath="\Events\Default Work Unit\Unpause"/>
 			</IncludedEvents>
