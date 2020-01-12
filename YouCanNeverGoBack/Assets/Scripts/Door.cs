@@ -30,6 +30,7 @@ public class Door : MonoBehaviour
 
     private IEnumerator ChangeScene()
     {
+        GetComponent<Animator>().SetTrigger("OpenDoor");
         GetComponentInChildren<Animator>().SetTrigger("ChangeScene");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(nextSceneName);
