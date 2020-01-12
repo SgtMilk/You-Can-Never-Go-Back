@@ -43,6 +43,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Illum:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -56,6 +60,30 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer5:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer6:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer7:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer8:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer9:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -80,6 +108,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionNormal:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -110,9 +142,12 @@ Material:
     - _EmissionStrength: 0
     - _EmissionStrength2: 0
     - _EmissionStrength3: 0
+    - _FlowIntensity: 0.5
+    - _FlowSpeed: 0.5
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Layer0AutoScrollSpeed: 0
     - _Layer0ScrollingX: 0
     - _Layer0ScrollingY: 0
     - _Layer1Opacity: 1
@@ -124,6 +159,24 @@ Material:
     - _Layer3Opacity: 1
     - _Layer3ScrollingX: 0
     - _Layer3ScrollingY: 0
+    - _Layer4Opacity: 1
+    - _Layer4ScrollingX: 0
+    - _Layer4ScrollingY: 0
+    - _Layer5Opacity: 1
+    - _Layer5ScrollingX: 0
+    - _Layer5ScrollingY: 0
+    - _Layer6Opacity: 1
+    - _Layer6ScrollingX: 0
+    - _Layer6ScrollingY: 0
+    - _Layer7Opacity: 1
+    - _Layer7ScrollingX: 0
+    - _Layer7ScrollingY: 0
+    - _Layer8Opacity: 1
+    - _Layer8ScrollingX: 0
+    - _Layer8ScrollingY: 0
+    - _Layer9Opacity: 1
+    - _Layer9ScrollingX: 0
+    - _Layer9ScrollingY: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -132,9 +185,11 @@ Material:
     - _ReflectionScrollingX: 0.25
     - _ReflectionScrollingY: 0.25
     - _ReflectionStrength: 0
+    - _RefractionStrength: 0.5
     - _SmoothnessTextureChannel: 0
     - _Specular: 0.2
     - _SpecularHighlights: 1
+    - _SpriteBlending: 0
     - _SrcBlend: 1
     - _TransmissionDensity: 0
     - _UVSec: 0
@@ -150,4 +205,10 @@ Material:
     - _Layer1Color: {r: 1, g: 1, b: 1, a: 1}
     - _Layer2Color: {r: 1, g: 1, b: 1, a: 1}
     - _Layer3Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Layer4Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Layer5Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Layer6Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Layer7Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Layer8Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Layer9Color: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
