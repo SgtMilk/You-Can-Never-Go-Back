@@ -111,8 +111,9 @@ GameObject:
   - component: {fileID: 677482434285569491}
   - component: {fileID: 677482434285569490}
   - component: {fileID: 677482434285569489}
+  - component: {fileID: 8294220661098096574}
   m_Layer: 0
-  m_Name: Door1
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -222,6 +223,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyId: 0
   nextSceneName: Scene2
+--- !u!95 &8294220661098096574
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677482434285569488}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 594eb54de2d112144b6060bb09774ef1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5287977082825258608
 GameObject:
   m_ObjectHideFlags: 0
