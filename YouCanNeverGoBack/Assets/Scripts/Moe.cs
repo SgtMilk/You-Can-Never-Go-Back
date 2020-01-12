@@ -36,6 +36,7 @@ public class Moe : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.DrawRay(transform.position, Vector3.up, isClimbing? Color.green:Color.red);
         Rigidbody2D controller = GetComponent<Rigidbody2D>();
         if (controller)
         {
