@@ -13,8 +13,12 @@ public class Box : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.GetComponent<Moe>())
+        Rigidbody2D rigidBody = GetComponent<Rigidbody2D>();
+        if (rigidBody)
+        {
+            if (collision.gameObject.GetComponent<Moe>() && rigidBody.bodyType == RigidbodyType2D.Dynamic)
             textComponent.enabled = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
