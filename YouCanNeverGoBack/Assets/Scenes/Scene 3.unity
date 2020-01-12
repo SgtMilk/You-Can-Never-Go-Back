@@ -3296,6 +3296,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: blacc (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 155129037164376071, guid: 51a0208e95078cc43b549e5fa4c628f4,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 155129037164376120, guid: 51a0208e95078cc43b549e5fa4c628f4,
         type: 3}
       propertyPath: m_LocalPosition.x

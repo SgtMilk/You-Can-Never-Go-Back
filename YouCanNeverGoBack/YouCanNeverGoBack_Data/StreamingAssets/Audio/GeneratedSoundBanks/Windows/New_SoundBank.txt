@@ -1,0 +1,55 @@
+Event	ID	Name			Wwise Object Path	Notes
+	564926307	PushStart			\Default Work Unit\PushStart	
+	857938122	Orages			\Default Work Unit\Orages	
+	1071740888	Jumps			\Default Work Unit\Jumps	
+	1074254744	MenuStop			\Default Work Unit\MenuStop	
+	1136921630	FSPlay			\Default Work Unit\FSPlay	
+	1404805401	DoorOpen			\Default Work Unit\DoorOpen	
+	2133237984	FSstop			\Default Work Unit\FSstop	
+	2607556080	Menu			\Default Work Unit\Menu	
+	3086540886	StopAll			\Default Work Unit\StopAll	
+	3092587493	Pause			\Default Work Unit\Pause	
+	3202316517	Switch			\Default Work Unit\Switch	
+	3288489714	MusicSoft			\Default Work Unit\MusicSoft	
+	3412868374	Unpause			\Default Work Unit\Unpause	
+	3626194854	AInitGame			\Default Work Unit\AInitGame	
+	3645994454	KeysPick			\Default Work Unit\KeysPick	
+	3686929560	MusicIntense			\Default Work Unit\MusicIntense	
+	4099416161	PushStop			\Default Work Unit\PushStop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1607094	Craks-003	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Craks-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Cracks\Craks-003		3986704
+	2350103	AccIntense1	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\AccIntense2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Intense\AccIntense\AccIntense1		1587664
+	19345026	FSMetal-004	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\FSMetal-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Metal\FSMetal-004		216156
+	24722411	FSMetal-002	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\FSMetal-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Metal\FSMetal-002		216156
+	78864615	AccIntense1	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\AccIntense1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Intense\AccIntense\AccIntense1		1455364
+	85969695	MetAcc1	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\MetAcc1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Low\BasseOstinato\MetAcc1		1455364
+	115397484	Jump-001	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Jump-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Jumps\Jump-001		229384
+	145208808	MultipleBitsHigh2	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\MultipleBitsHigh2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Low\BasseOstinato\MultipleBitsHigh2		2116864
+	181963579	KeysPick	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\KeysPick_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\KeysPick		145596
+	196936292	Orages-003	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Orages-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Orages\Orages-003		892912
+	203273995	Orages-001	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Orages-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Orages\Orages-001		1410960
+	224203929	PushCube	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\PushCube_64120760.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\CubePush\PushCube		428260
+	253721383	Orages-004	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Orages-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Orages\Orages-004		1384376
+	264593144	Push-002	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Push-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Push\Push-002		500464
+	280397617	WaterAlarmAcc	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\WaterAlarmAcc_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Low\BasseOstinato\WaterAlarmAcc		2513764
+	339629078	BasseIntense	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\BasseIntense_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Intense\AccIntense\BasseIntense		1455364
+	375375839	Levier	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Levier_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Levier		105904
+	391356596	FSMetal-005	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\FSMetal-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Metal\FSMetal-005		216156
+	411429435	Push-001	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Push-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Push\Push-001		438148
+	425158113	Craks-001	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Craks-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Cracks\Craks-001		2187424
+	500362038	MetAcc1	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\MetAcc2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Low\BasseOstinato\MetAcc1		1455364
+	528092472	Craks-002	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Craks-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Cracks\Craks-002		1869904
+	627816863	FSMetal-003	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\FSMetal-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Metal\FSMetal-003		216156
+	726754599	Craks-004	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Craks-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Cracks\Craks-004		3986704
+	734911685	BasseOstinato	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\BasseOstinato_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Low\BasseOstinato\BasseOstinato		2836540
+	774086909	Jump	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Jump_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Jumps\Jump		229384
+	791056421	DoorOpen-002	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\DoorOpen-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\DoorOpen-002		476344
+	845557483	DropIntense	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\DropIntense_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\DropIntense\DropIntense		1984564
+	866381741	Craks-005	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Craks-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Cracks\Craks-005		9206320
+	880514450	Orages-002	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Orages-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Orages\Orages-002		1510108
+	887617215	Push-003	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\Push-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Push\Push-003		497064
+	980688751	CymbTrans	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\CymbTrans_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\CymbTrans\CymbTrans		1955500
+	1062297302	FSMetal-001	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\FSMetal-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Metal\FSMetal-001		216156
+	1072304692	MetAcc1	C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\SFX\MetAcc3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitch\Low\BasseOstinato\MetAcc1		1455364
+

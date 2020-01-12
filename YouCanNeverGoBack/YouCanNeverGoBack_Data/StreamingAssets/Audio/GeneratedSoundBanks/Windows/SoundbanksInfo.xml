@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\TempAccount\Desktop\GameJams\ShipSail\WwiseProjectShip\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3626194854" Name="AInitGame" ObjectPath="\Events\Default Work Unit\AInitGame"/>
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen"/>
+				<Event Id="1136921630" Name="FSPlay" ObjectPath="\Events\Default Work Unit\FSPlay"/>
+				<Event Id="2133237984" Name="FSstop" ObjectPath="\Events\Default Work Unit\FSstop"/>
+				<Event Id="1071740888" Name="Jumps" ObjectPath="\Events\Default Work Unit\Jumps"/>
+				<Event Id="3645994454" Name="KeysPick" ObjectPath="\Events\Default Work Unit\KeysPick"/>
+				<Event Id="2607556080" Name="Menu" ObjectPath="\Events\Default Work Unit\Menu"/>
+				<Event Id="1074254744" Name="MenuStop" ObjectPath="\Events\Default Work Unit\MenuStop"/>
+				<Event Id="3686929560" Name="MusicIntense" ObjectPath="\Events\Default Work Unit\MusicIntense"/>
+				<Event Id="3288489714" Name="MusicSoft" ObjectPath="\Events\Default Work Unit\MusicSoft"/>
+				<Event Id="857938122" Name="Orages" ObjectPath="\Events\Default Work Unit\Orages"/>
+				<Event Id="3092587493" Name="Pause" ObjectPath="\Events\Default Work Unit\Pause"/>
+				<Event Id="564926307" Name="PushStart" ObjectPath="\Events\Default Work Unit\PushStart"/>
+				<Event Id="4099416161" Name="PushStop" ObjectPath="\Events\Default Work Unit\PushStop"/>
+				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\StopAll"/>
+				<Event Id="3202316517" Name="Switch" ObjectPath="\Events\Default Work Unit\Switch"/>
+				<Event Id="3412868374" Name="Unpause" ObjectPath="\Events\Default Work Unit\Unpause"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="1607094" Language="SFX">
+					<ShortName>Craks-003.wav</ShortName>
+					<Path>SFX\Craks-003_56D34C19.wem</Path>
+				</File>
+				<File Id="2350103" Language="SFX">
+					<ShortName>AccIntense2.wav</ShortName>
+					<Path>SFX\AccIntense2_8956FC97.wem</Path>
+				</File>
+				<File Id="19345026" Language="SFX">
+					<ShortName>FSMetal-004.wav</ShortName>
+					<Path>SFX\FSMetal-004_56D34C19.wem</Path>
+				</File>
+				<File Id="24722411" Language="SFX">
+					<ShortName>FSMetal-002.wav</ShortName>
+					<Path>SFX\FSMetal-002_56D34C19.wem</Path>
+				</File>
+				<File Id="78864615" Language="SFX">
+					<ShortName>AccIntense1.wav</ShortName>
+					<Path>SFX\AccIntense1_8956FC97.wem</Path>
+				</File>
+				<File Id="85969695" Language="SFX">
+					<ShortName>MetAcc1.wav</ShortName>
+					<Path>SFX\MetAcc1_8956FC97.wem</Path>
+				</File>
+				<File Id="115397484" Language="SFX">
+					<ShortName>Jump-001.wav</ShortName>
+					<Path>SFX\Jump-001_56D34C19.wem</Path>
+				</File>
+				<File Id="145208808" Language="SFX">
+					<ShortName>MultipleBitsHigh2.wav</ShortName>
+					<Path>SFX\MultipleBitsHigh2_8956FC97.wem</Path>
+				</File>
+				<File Id="181963579" Language="SFX">
+					<ShortName>KeysPick.wav</ShortName>
+					<Path>SFX\KeysPick_56D34C19.wem</Path>
+				</File>
+				<File Id="196936292" Language="SFX">
+					<ShortName>Orages-003.wav</ShortName>
+					<Path>SFX\Orages-003_56D34C19.wem</Path>
+				</File>
+				<File Id="203273995" Language="SFX">
+					<ShortName>Orages-001.wav</ShortName>
+					<Path>SFX\Orages-001_56D34C19.wem</Path>
+				</File>
+				<File Id="224203929" Language="SFX">
+					<ShortName>PushCube.wav</ShortName>
+					<Path>SFX\PushCube_64120760.wem</Path>
+				</File>
+				<File Id="253721383" Language="SFX">
+					<ShortName>Orages-004.wav</ShortName>
+					<Path>SFX\Orages-004_56D34C19.wem</Path>
+				</File>
+				<File Id="264593144" Language="SFX">
+					<ShortName>Push-002.wav</ShortName>
+					<Path>SFX\Push-002_56D34C19.wem</Path>
+				</File>
+				<File Id="280397617" Language="SFX">
+					<ShortName>WaterAlarmAcc.wav</ShortName>
+					<Path>SFX\WaterAlarmAcc_8956FC97.wem</Path>
+				</File>
+				<File Id="339629078" Language="SFX">
+					<ShortName>BasseIntense.wav</ShortName>
+					<Path>SFX\BasseIntense_8956FC97.wem</Path>
+				</File>
+				<File Id="375375839" Language="SFX">
+					<ShortName>Levier.wav</ShortName>
+					<Path>SFX\Levier_56D34C19.wem</Path>
+				</File>
+				<File Id="391356596" Language="SFX">
+					<ShortName>FSMetal-005.wav</ShortName>
+					<Path>SFX\FSMetal-005_56D34C19.wem</Path>
+				</File>
+				<File Id="411429435" Language="SFX">
+					<ShortName>Push-001.wav</ShortName>
+					<Path>SFX\Push-001_56D34C19.wem</Path>
+				</File>
+				<File Id="425158113" Language="SFX">
+					<ShortName>Craks-001.wav</ShortName>
+					<Path>SFX\Craks-001_56D34C19.wem</Path>
+				</File>
+				<File Id="500362038" Language="SFX">
+					<ShortName>MetAcc2.wav</ShortName>
+					<Path>SFX\MetAcc2_8956FC97.wem</Path>
+				</File>
+				<File Id="528092472" Language="SFX">
+					<ShortName>Craks-002.wav</ShortName>
+					<Path>SFX\Craks-002_56D34C19.wem</Path>
+				</File>
+				<File Id="627816863" Language="SFX">
+					<ShortName>FSMetal-003.wav</ShortName>
+					<Path>SFX\FSMetal-003_56D34C19.wem</Path>
+				</File>
+				<File Id="726754599" Language="SFX">
+					<ShortName>Craks-004.wav</ShortName>
+					<Path>SFX\Craks-004_56D34C19.wem</Path>
+				</File>
+				<File Id="734911685" Language="SFX">
+					<ShortName>BasseOstinato.wav</ShortName>
+					<Path>SFX\BasseOstinato_8956FC97.wem</Path>
+				</File>
+				<File Id="774086909" Language="SFX">
+					<ShortName>Jump.wav</ShortName>
+					<Path>SFX\Jump_56D34C19.wem</Path>
+				</File>
+				<File Id="791056421" Language="SFX">
+					<ShortName>DoorOpen-002.wav</ShortName>
+					<Path>SFX\DoorOpen-002_56D34C19.wem</Path>
+				</File>
+				<File Id="845557483" Language="SFX">
+					<ShortName>DropIntense.wav</ShortName>
+					<Path>SFX\DropIntense_8956FC97.wem</Path>
+				</File>
+				<File Id="866381741" Language="SFX">
+					<ShortName>Craks-005.wav</ShortName>
+					<Path>SFX\Craks-005_56D34C19.wem</Path>
+				</File>
+				<File Id="880514450" Language="SFX">
+					<ShortName>Orages-002.wav</ShortName>
+					<Path>SFX\Orages-002_56D34C19.wem</Path>
+				</File>
+				<File Id="887617215" Language="SFX">
+					<ShortName>Push-003.wav</ShortName>
+					<Path>SFX\Push-003_56D34C19.wem</Path>
+				</File>
+				<File Id="980688751" Language="SFX">
+					<ShortName>CymbTrans.wav</ShortName>
+					<Path>SFX\CymbTrans_8956FC97.wem</Path>
+				</File>
+				<File Id="1062297302" Language="SFX">
+					<ShortName>FSMetal-001.wav</ShortName>
+					<Path>SFX\FSMetal-001_56D34C19.wem</Path>
+				</File>
+				<File Id="1072304692" Language="SFX">
+					<ShortName>MetAcc3.wav</ShortName>
+					<Path>SFX\MetAcc3_8956FC97.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
