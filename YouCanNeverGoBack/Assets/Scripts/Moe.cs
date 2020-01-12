@@ -87,6 +87,9 @@ public class Moe : MonoBehaviour
                     }
                 }
             }
+
+            GetComponent<Animator>().SetFloat("horizontalVelocity", Mathf.Abs(horizontalVelocity));
+
             controller.velocity = new Vector2(horizontalVelocity, verticalVelocity);
 
             if (horizontalInput * transform.localScale.x < 0)
