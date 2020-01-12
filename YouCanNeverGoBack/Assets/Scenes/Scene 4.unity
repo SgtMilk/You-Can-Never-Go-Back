@@ -2752,16 +2752,6 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 8134005872244402910, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
-        type: 3}
-      propertyPath: walkingSpeed
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134005872244402910, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
-        type: 3}
-      propertyPath: jumpSpeed
-      value: 1500
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ff54c9cfe25b554d91bb987bcd444b6, type: 3}
 --- !u!1001 &2088697411
