@@ -43,6 +43,7 @@ public class Moe : MonoBehaviour
             float verticalInput = Input.GetAxisRaw("Vertical");
             float horizontalVelocity = Time.deltaTime * walkingSpeed * horizontalInput;
             float verticalVelocity = controller.velocity.y;
+            
             if (Input.GetAxisRaw("Jump") != 0 && isGrounded())
             {
                 verticalVelocity = Time.deltaTime * jumpSpeed;
@@ -60,7 +61,6 @@ public class Moe : MonoBehaviour
                 ignorePlatformCollisions |= Physics2D.OverlapBox(transform.position, new Vector2(4, 5), 0, LayerMask.GetMask(platformLayer));  //collider.OverlapCollider(contactFilter, results) > 0;
             }
             Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer(platformLayer), ignorePlatformCollisions);
-
 
             if (Input.GetAxisRaw("Action") == 1)
             {
