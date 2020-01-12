@@ -9,7 +9,7 @@ public class Lightning : MonoBehaviour
     public float minIntensity = 2;
     public float minDurationBetween = 4;
     public float maxDurationBetween = 16;
-    public float cameraShakeMaxAmount = 1E-10f;
+    public float cameraShakeMaxAmount = 5;
     public CameraShake cameraShake;
     private new Light light;
 
