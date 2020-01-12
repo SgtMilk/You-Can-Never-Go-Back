@@ -52,7 +52,6 @@ public class Moe : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawRay(transform.position, Vector3.up, isClimbing? Color.green:Color.red);
         Rigidbody2D controller = GetComponent<Rigidbody2D>();
         if (inputsActivated && controller)
         {
@@ -98,7 +97,6 @@ public class Moe : MonoBehaviour
                         sndPush.Post(wwiseObj);
                         isPushingObject = true;
                     }
-                    Debug.DrawRay(pushedObject.transform.position, Vector3.up, Color.white);
                     Rigidbody2D objectRigidBody = pushedObject.GetComponentInChildren<Rigidbody2D>();
                     if (objectRigidBody)
                     {
