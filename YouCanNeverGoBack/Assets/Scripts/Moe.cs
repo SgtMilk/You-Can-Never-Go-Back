@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Moe : MonoBehaviour
 {
-    public float walkingSpeed = 500.0f;
+    public float walkingSpeed = 750.0f;
+    public float runningSpeed = 1000.0f;
     public float jumpSpeed = 1000.0f;
     public float climbingSpeed = 500.0f;
     public float defaultGravityScale = 3.0f;
@@ -41,7 +42,7 @@ public class Moe : MonoBehaviour
             controller.gravityScale = defaultGravityScale;
             float horizontalInput = Input.GetAxisRaw("Horizontal");
             float verticalInput = Input.GetAxisRaw("Vertical");
-            float horizontalVelocity = Time.deltaTime * walkingSpeed * horizontalInput;
+            float horizontalVelocity = Time.deltaTime * horizontalInput * (Input.GetAxisRaw("Run") == 1 ? runningSpeed : walkingSpeed);
             float verticalVelocity = controller.velocity.y;
             
             if (Input.GetAxisRaw("Jump") != 0 && isGrounded())
