@@ -76,7 +76,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Press C to push or pull the box
+  m_Text: 'Press P to push or pull the box
 
 '
 --- !u!1 &3041291901104153368
