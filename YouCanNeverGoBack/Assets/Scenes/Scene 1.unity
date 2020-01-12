@@ -208,7 +208,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &302901110
 MonoBehaviour:
@@ -578,7 +578,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1126729337
 GameObject:
@@ -693,11 +693,6 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 7138cc75cae48ae4b9c1be554c846928, type: 2}
-    - target: {fileID: 5932193065929035846, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 150
-      objectReference: {fileID: 0}
     - target: {fileID: 8134005872244402901, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
         type: 3}
       propertyPath: m_Name
@@ -772,6 +767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134005872244402910, guid: 5ff54c9cfe25b554d91bb987bcd444b6,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ff54c9cfe25b554d91bb987bcd444b6, type: 3}
@@ -1043,7 +1043,7 @@ PrefabInstance:
     - target: {fileID: 5354474989279101208, guid: 15c2f0ef7f8a48742b2e98426fe542ba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5354474989279101208, guid: 15c2f0ef7f8a48742b2e98426fe542ba,
         type: 3}
@@ -1303,7 +1303,7 @@ PrefabInstance:
     - target: {fileID: 3033676705204777682, guid: bb0b7bcb17ed6dc44acc85b1376438df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3033676705204777682, guid: bb0b7bcb17ed6dc44acc85b1376438df,
         type: 3}
