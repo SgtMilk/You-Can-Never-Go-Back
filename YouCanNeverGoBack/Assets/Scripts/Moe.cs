@@ -48,6 +48,7 @@ public class Moe : MonoBehaviour
             if (Input.GetAxisRaw("Jump") != 0 && isGrounded())
             {
                 verticalVelocity = Time.deltaTime * jumpSpeed;
+                isClimbing = false;
             }
             else if (isClimbing)
             {
@@ -113,6 +114,9 @@ public class Moe : MonoBehaviour
 
     private bool isGrounded()
     {
+        if (isClimbing)
+            return true;
+
         Collider2D collider = GetComponent<Collider2D>();
         if (collider)
         {
@@ -124,14 +128,6 @@ public class Moe : MonoBehaviour
             }
         }
         return false;
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.layer == LayerMask.NameToLayer(ladderLayer))
-        {
-            isClimbing = true;
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
