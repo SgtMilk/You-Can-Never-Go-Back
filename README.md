@@ -1,4 +1,2 @@
 # You-Can-Never-Go-Back
-
-beep bop boop
-X and Y are veryAbles
+You can download the compiled game at https://invincidude.itch.io/escape-big-boat
